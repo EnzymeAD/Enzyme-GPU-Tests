@@ -1,0 +1,48 @@
+device : cuda
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+The number of inputs is very large. BK_DG will be repeated at least 450 times.
+2026-11-04T06:18:42-06:00
+Running /home/wmoses/ejwork/mfem_builds/native/tests/benchmarks/bench_dg_amr
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 9.75, 7.52, 13.12
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+----------------------------------------------------------------------------------------------------------------
+Benchmark                          Time             CPU   Iterations       Dofs     MDof/s      Order       Prob
+----------------------------------------------------------------------------------------------------------------
+[0;32mBK_DG/1048576/2/0         [m[0;33m     0.369 ms        0.369 ms   [m[0;36m      1898[m   1.06121M[m 2.87641k/s[m          2[m          0[m
+[m[0;32mBK_DG/1048576/2/0         [m[0;33m     0.369 ms        0.369 ms   [m[0;36m      1898[m   1.06121M[m  2.8757k/s[m          2[m          0[m
+[m[0;32mBK_DG/1048576/2/0         [m[0;33m     0.369 ms        0.369 ms   [m[0;36m      1898[m   1.06121M[m  2.8749k/s[m          2[m          0[m
+[m[0;32mBK_DG/1048576/2/0_mean    [m[0;33m     0.369 ms        0.369 ms   [m[0;36m         3[m   1.06121M[m 2.87567k/s[m          2[m          0[m
+[m[0;32mBK_DG/1048576/2/0_median  [m[0;33m     0.369 ms        0.369 ms   [m[0;36m         3[m   1.06121M[m  2.8757k/s[m          2[m          0[m
+[m[0;32mBK_DG/1048576/2/0_stddev  [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m          0[m 0.756194/s[m          0[m          0[m
+[m[0;32mBK_DG/1048576/2/0_cv      [m[0;33m      0.02 %          0.03 %    [m[0;36m         3[m      0.00%[m      0.03%[m      0.00%[m      0.00%[m
+[m[0;32mBK_DG/1048576/4/0         [m[0;33m     0.319 ms        0.319 ms   [m[0;36m      2200[m   1.15762M[m 3.63051k/s[m          4[m          0[m
+[m[0;32mBK_DG/1048576/4/0         [m[0;33m     0.319 ms        0.319 ms   [m[0;36m      2200[m   1.15762M[m 3.63087k/s[m          4[m          0[m
+[m[0;32mBK_DG/1048576/4/0         [m[0;33m     0.319 ms        0.319 ms   [m[0;36m      2200[m   1.15762M[m 3.63047k/s[m          4[m          0[m
+[m[0;32mBK_DG/1048576/4/0_mean    [m[0;33m     0.319 ms        0.319 ms   [m[0;36m         3[m   1.15762M[m 3.63061k/s[m          4[m          0[m
+[m[0;32mBK_DG/1048576/4/0_median  [m[0;33m     0.319 ms        0.319 ms   [m[0;36m         3[m   1.15762M[m 3.63051k/s[m          4[m          0[m
+[m[0;32mBK_DG/1048576/4/0_stddev  [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m          0[m 0.219064/s[m          0[m          0[m
+[m[0;32mBK_DG/1048576/4/0_cv      [m[0;33m      0.01 %          0.01 %    [m[0;36m         3[m      0.00%[m      0.01%[m      0.00%[m      0.00%[m
+[m[0;32mBK_DG/1048576/2/10        [m[0;33m     0.748 ms        0.748 ms   [m[0;36m       929[m   1.80473M[m 2.41191k/s[m          2[m         10[m
+[m[0;32mBK_DG/1048576/2/10        [m[0;33m     0.757 ms        0.757 ms   [m[0;36m       929[m   1.82212M[m  2.4076k/s[m          2[m         10[m
+[m[0;32mBK_DG/1048576/2/10        [m[0;33m     0.751 ms        0.750 ms   [m[0;36m       929[m   1.80795M[m 2.40948k/s[m          2[m         10[m
+[m[0;32mBK_DG/1048576/2/10_mean   [m[0;33m     0.752 ms        0.752 ms   [m[0;36m         3[m    1.8116M[m 2.40966k/s[m          2[m         10[m
+[m[0;32mBK_DG/1048576/2/10_median [m[0;33m     0.751 ms        0.750 ms   [m[0;36m         3[m   1.80795M[m 2.40948k/s[m          2[m         10[m
+[m[0;32mBK_DG/1048576/2/10_stddev [m[0;33m     0.004 ms        0.004 ms   [m[0;36m         3[m     9.252k[m  2.15952/s[m          0[m          0[m
+[m[0;32mBK_DG/1048576/2/10_cv     [m[0;33m      0.59 %          0.59 %    [m[0;36m         3[m      0.51%[m      0.09%[m      0.00%[m      0.00%[m
+[m[0;32mBK_DG/1048576/4/10        [m[0;33m     0.632 ms        0.632 ms   [m[0;36m      1099[m   1.96525M[m 3.10733k/s[m          4[m         10[m
+[m[0;32mBK_DG/1048576/4/10        [m[0;33m     0.645 ms        0.645 ms   [m[0;36m      1099[m    2.0055M[m 3.11148k/s[m          4[m         10[m
+[m[0;32mBK_DG/1048576/4/10        [m[0;33m     0.636 ms        0.636 ms   [m[0;36m      1099[m   1.96788M[m 3.09414k/s[m          4[m         10[m
+[m[0;32mBK_DG/1048576/4/10_mean   [m[0;33m     0.638 ms        0.638 ms   [m[0;36m         3[m   1.97954M[m 3.10432k/s[m          4[m         10[m
+[m[0;32mBK_DG/1048576/4/10_median [m[0;33m     0.636 ms        0.636 ms   [m[0;36m         3[m   1.96788M[m 3.10733k/s[m          4[m         10[m
+[m[0;32mBK_DG/1048576/4/10_stddev [m[0;33m     0.006 ms        0.006 ms   [m[0;36m         3[m   22.5189k[m  9.05415/s[m          0[m          0[m
+[m[0;32mBK_DG/1048576/4/10_cv     [m[0;33m      0.97 %          0.97 %    [m[0;36m         3[m      1.14%[m      0.29%[m      0.00%[m      0.00%[m
+[m

@@ -1,0 +1,101 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793796896.418540 2960112 service.cc:156] XLA service 0x5755896620f0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1793796896.418625 2960112 service.cc:172]   StreamExecutor [0]: NVIDIA GeForce RTX 5090, Compute Capability 12.0a (Driver: 12.9.0[575.57.8]; Runtime: 12.9.0; Toolkit: 12.9.0; DNN: 9.21.0)
+I0000 00:00:1793796896.419582 2960112 se_gpu_pjrt_client.cc:1487] Using BFC allocator.
+I0000 00:00:1793796896.419619 2960112 gpu_helpers.cc:258] XLA backend allocating 23.52GiB (25249710080 bytes) on device 0 for BFCAllocator.
+2026-11-04T06:54:56-06:00
+Running /home/wmoses/ejwork/mfem_builds/xla2p58c/tests/benchmarks/bench_vector
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 5.72, 9.42, 9.25
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+Vector_EQ_MFEM/1024                              112.78 ns
+Vector_EQ_MFEM/1024                              110.75 ns
+Vector_EQ_MFEM/1024                              113.31 ns
+Vector_EQ_MFEM/1024_mean                         112.28 ns
+Vector_EQ_MFEM/1024_median                       112.78 ns
+Vector_EQ_MFEM/1024_stddev                       1.35 ns
+Vector_EQ_MFEM/1024_cv                           4014241.53 ns
+Vector_EQ/1024                                   113.12 ns
+Vector_EQ/1024                                   111.42 ns
+Vector_EQ/1024                                   113.39 ns
+Vector_EQ/1024_mean                              112.64 ns
+Vector_EQ/1024_median                            113.12 ns
+Vector_EQ/1024_stddev                            1.07 ns
+Vector_EQ/1024_cv                                3165141.31 ns
+Vector_EQ_Virtuals/1024                          113.92 ns
+Vector_EQ_Virtuals/1024                          113.66 ns
+Vector_EQ_Virtuals/1024                          116.88 ns
+Vector_EQ_Virtuals/1024_mean                     114.82 ns
+Vector_EQ_Virtuals/1024_median                   113.92 ns
+Vector_EQ_Virtuals/1024_stddev                   1.79 ns
+Vector_EQ_Virtuals/1024_cv                       5183431.83 ns
+Vector_EQ_Virtuals_Inlined/1024                  114.09 ns
+Vector_EQ_Virtuals_Inlined/1024                  117.06 ns
+Vector_EQ_Virtuals_Inlined/1024                  114.05 ns
+Vector_EQ_Virtuals_Inlined/1024_mean             115.07 ns
+Vector_EQ_Virtuals_Inlined/1024_median           114.09 ns
+Vector_EQ_Virtuals_Inlined/1024_stddev           1.73 ns
+Vector_EQ_Virtuals_Inlined/1024_cv               5000982.47 ns
+Vector_PE_MFEM/1024                              146.43 ns
+Vector_PE_MFEM/1024                              150.00 ns
+Vector_PE_MFEM/1024                              146.37 ns
+Vector_PE_MFEM/1024_mean                         147.60 ns
+Vector_PE_MFEM/1024_median                       146.43 ns
+Vector_PE_MFEM/1024_stddev                       2.08 ns
+Vector_PE_MFEM/1024_cv                           4689848.51 ns
+Vector_PE_MFEM_64/1024                           168.11 ns
+Vector_PE_MFEM_64/1024                           164.94 ns
+Vector_PE_MFEM_64/1024                           167.57 ns
+Vector_PE_MFEM_64/1024_mean                      166.87 ns
+Vector_PE_MFEM_64/1024_median                    167.57 ns
+Vector_PE_MFEM_64/1024_stddev                    1.69 ns
+Vector_PE_MFEM_64/1024_cv                        3382116.64 ns
+Vector_PE/1024                                   145.37 ns
+Vector_PE/1024                                   140.95 ns
+Vector_PE/1024                                   144.78 ns
+Vector_PE/1024_mean                              143.70 ns
+Vector_PE/1024_median                            144.78 ns
+Vector_PE/1024_stddev                            2.40 ns
+Vector_PE/1024_cv                                5564485.39 ns
+Vector_PE_Virtuals/1024                          143.83 ns
+Vector_PE_Virtuals/1024                          140.71 ns
+Vector_PE_Virtuals/1024                          140.88 ns
+Vector_PE_Virtuals/1024_mean                     141.81 ns
+Vector_PE_Virtuals/1024_median                   140.88 ns
+Vector_PE_Virtuals/1024_stddev                   1.75 ns
+Vector_PE_Virtuals/1024_cv                       4119899.32 ns
+Vector_Virtuals_Inlined_PE/1024                  143.45 ns
+Vector_Virtuals_Inlined_PE/1024                  140.69 ns
+Vector_Virtuals_Inlined_PE/1024                  140.71 ns
+Vector_Virtuals_Inlined_PE/1024_mean             141.62 ns
+Vector_Virtuals_Inlined_PE/1024_median           140.71 ns
+Vector_Virtuals_Inlined_PE/1024_stddev           1.59 ns
+Vector_Virtuals_Inlined_PE/1024_cv               3735143.98 ns
+Base/1024                                        0.21 ns
+Base/1024                                        0.20 ns
+Base/1024                                        0.21 ns
+Base/1024_mean                                   0.21 ns
+Base/1024_median                                 0.21 ns
+Base/1024_stddev                                 0.01 ns
+Base/1024_cv                                     9697155.18 ns
+Base_Virtuals_inlined/1024                       0.20 ns
+Base_Virtuals_inlined/1024                       0.21 ns
+Base_Virtuals_inlined/1024                       0.20 ns
+Base_Virtuals_inlined/1024_mean                  0.20 ns
+Base_Virtuals_inlined/1024_median                0.20 ns
+Base_Virtuals_inlined/1024_stddev                0.00 ns
+Base_Virtuals_inlined/1024_cv                    5139131.03 ns
+Base_Virtuals_Derived_not_inlined/1024           1.04 ns
+Base_Virtuals_Derived_not_inlined/1024           1.01 ns
+Base_Virtuals_Derived_not_inlined/1024           1.04 ns
+Base_Virtuals_Derived_not_inlined/1024_mean      1.03 ns
+Base_Virtuals_Derived_not_inlined/1024_median    1.04 ns
+Base_Virtuals_Derived_not_inlined/1024_stddev    0.02 ns
+Base_Virtuals_Derived_not_inlined/1024_cv        6090110.81 ns

@@ -1,0 +1,8 @@
+bench_assembly_levels_x0|0|171|load 4.47
+bench_dg_amr|0|40|load 11.73
+bench_nlvc|0|64|load 3.85
+bench_virtuals|0|12|load 8.07
+bench_ceed|0|87|load 9.39
+bench_elasticity|0|19|load 4.23
+bench_tmop|0|159|load 5.10
+bench_vector|0|45|load 6.04

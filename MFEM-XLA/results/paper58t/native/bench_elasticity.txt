@@ -1,0 +1,47 @@
+device : cuda
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+2026-11-04T06:37:41-06:00
+Running /home/wmoses/ejwork/mfem_builds/native/tests/benchmarks/bench_elasticity
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 4.36, 5.69, 8.57
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+---------------------------------------------------------------------------------------------------------------
+Benchmark                         Time             CPU   Iterations       MDof       dofs          p  use_cache
+---------------------------------------------------------------------------------------------------------------
+[0;32mGradient3D/2/60/0        [m[0;33m     0.834 ms        0.834 ms   [m[0;36m       846[m  816.034/s[m   680.943k[m          2[m          0[m
+[m[0;32mGradient3D/2/60/0        [m[0;33m     0.835 ms        0.835 ms   [m[0;36m       846[m  815.854/s[m   680.943k[m          2[m          0[m
+[m[0;32mGradient3D/2/60/0        [m[0;33m     0.835 ms        0.835 ms   [m[0;36m       846[m  815.869/s[m   680.943k[m          2[m          0[m
+[m[0;32mGradient3D/2/60/0_mean   [m[0;33m     0.835 ms        0.835 ms   [m[0;36m         3[m  815.919/s[m   680.943k[m          2[m          0[m
+[m[0;32mGradient3D/2/60/0_median [m[0;33m     0.835 ms        0.835 ms   [m[0;36m         3[m  815.869/s[m   680.943k[m          2[m          0[m
+[m[0;32mGradient3D/2/60/0_stddev [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m 0.0998935/s[m          0[m          0[m          0[m
+[m[0;32mGradient3D/2/60/0_cv     [m[0;33m      0.02 %          0.01 %    [m[0;36m         3[m      0.01%[m      0.00%[m      0.00%[m      0.00%[m
+[m[0;32mGradient3D/3/60/0        [m[0;33m     0.516 ms        0.516 ms   [m[0;36m      1372[m 1.32082k/s[m   680.943k[m          3[m          0[m
+[m[0;32mGradient3D/3/60/0        [m[0;33m     0.515 ms        0.515 ms   [m[0;36m      1372[m 1.32132k/s[m   680.943k[m          3[m          0[m
+[m[0;32mGradient3D/3/60/0        [m[0;33m     0.515 ms        0.515 ms   [m[0;36m      1372[m 1.32121k/s[m   680.943k[m          3[m          0[m
+[m[0;32mGradient3D/3/60/0_mean   [m[0;33m     0.515 ms        0.515 ms   [m[0;36m         3[m 1.32112k/s[m   680.943k[m          3[m          0[m
+[m[0;32mGradient3D/3/60/0_median [m[0;33m     0.515 ms        0.515 ms   [m[0;36m         3[m 1.32121k/s[m   680.943k[m          3[m          0[m
+[m[0;32mGradient3D/3/60/0_stddev [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m 0.260985/s[m          0[m          0[m          0[m
+[m[0;32mGradient3D/3/60/0_cv     [m[0;33m      0.01 %          0.02 %    [m[0;36m         3[m      0.02%[m      0.00%[m      0.00%[m      0.00%[m
+[m[0;32mGradient3D/2/60/1        [m[0;33m      2.07 ms         2.07 ms   [m[0;36m       341[m  329.526/s[m   680.943k[m          2[m          1[m
+[m[0;32mGradient3D/2/60/1        [m[0;33m      2.07 ms         2.07 ms   [m[0;36m       341[m  329.463/s[m   680.943k[m          2[m          1[m
+[m[0;32mGradient3D/2/60/1        [m[0;33m      2.07 ms         2.07 ms   [m[0;36m       341[m  329.504/s[m   680.943k[m          2[m          1[m
+[m[0;32mGradient3D/2/60/1_mean   [m[0;33m      2.07 ms         2.07 ms   [m[0;36m         3[m  329.498/s[m   680.943k[m          2[m          1[m
+[m[0;32mGradient3D/2/60/1_median [m[0;33m      2.07 ms         2.07 ms   [m[0;36m         3[m  329.504/s[m   680.943k[m          2[m          1[m
+[m[0;32mGradient3D/2/60/1_stddev [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m 0.0316901/s[m          0[m          0[m          0[m
+[m[0;32mGradient3D/2/60/1_cv     [m[0;33m      0.01 %          0.01 %    [m[0;36m         3[m      0.01%[m      0.00%[m      0.00%[m      0.00%[m
+[m[0;32mGradient3D/3/60/1        [m[0;33m      1.17 ms         1.17 ms   [m[0;36m       602[m  580.909/s[m   680.943k[m          3[m          1[m
+[m[0;32mGradient3D/3/60/1        [m[0;33m      1.17 ms         1.17 ms   [m[0;36m       602[m  580.954/s[m   680.943k[m          3[m          1[m
+[m[0;32mGradient3D/3/60/1        [m[0;33m      1.17 ms         1.17 ms   [m[0;36m       602[m  580.775/s[m   680.943k[m          3[m          1[m
+[m[0;32mGradient3D/3/60/1_mean   [m[0;33m      1.17 ms         1.17 ms   [m[0;36m         3[m  580.879/s[m   680.943k[m          3[m          1[m
+[m[0;32mGradient3D/3/60/1_median [m[0;33m      1.17 ms         1.17 ms   [m[0;36m         3[m  580.909/s[m   680.943k[m          3[m          1[m
+[m[0;32mGradient3D/3/60/1_stddev [m[0;33m     0.000 ms        0.000 ms   [m[0;36m         3[m 0.0932092/s[m          0[m          0[m          0[m
+[m[0;32mGradient3D/3/60/1_cv     [m[0;33m      0.02 %          0.02 %    [m[0;36m         3[m      0.02%[m      0.00%[m      0.00%[m      0.00%[m
+[m
