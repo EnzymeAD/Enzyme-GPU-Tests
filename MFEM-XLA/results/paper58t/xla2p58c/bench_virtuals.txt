@@ -1,0 +1,33 @@
+2026-11-04T06:31:48-06:00
+Running /home/wmoses/ejwork/mfem_builds/xla2p58c/tests/benchmarks/bench_virtuals
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 7.21, 7.19, 10.09
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+Base/1                                           0.20 ns
+Base/1                                           0.20 ns
+Base/1                                           0.21 ns
+Base/1_mean                                      0.20 ns
+Base/1_median                                    0.20 ns
+Base/1_stddev                                    0.00 ns
+Base/1_cv                                        5944534.24 ns
+Base_Virtuals_inlined/1                          0.21 ns
+Base_Virtuals_inlined/1                          0.20 ns
+Base_Virtuals_inlined/1                          0.21 ns
+Base_Virtuals_inlined/1_mean                     0.21 ns
+Base_Virtuals_inlined/1_median                   0.21 ns
+Base_Virtuals_inlined/1_stddev                   0.00 ns
+Base_Virtuals_inlined/1_cv                       4678511.75 ns
+Base_Virtuals_Derived_not_inlined/1              1.06 ns
+Base_Virtuals_Derived_not_inlined/1              1.06 ns
+Base_Virtuals_Derived_not_inlined/1              1.09 ns
+Base_Virtuals_Derived_not_inlined/1_mean         1.07 ns
+Base_Virtuals_Derived_not_inlined/1_median       1.06 ns
+Base_Virtuals_Derived_not_inlined/1_stddev       0.02 ns
+Base_Virtuals_Derived_not_inlined/1_cv           6088361.96 ns

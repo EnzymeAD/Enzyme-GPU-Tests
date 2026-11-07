@@ -1,0 +1,96 @@
+2026-11-04T06:54:04-06:00
+Running /home/wmoses/ejwork/mfem_builds/native/tests/benchmarks/bench_vector
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 9.92, 10.66, 9.62
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+Vector_EQ_MFEM/1024                              108.63 ns
+Vector_EQ_MFEM/1024                              108.14 ns
+Vector_EQ_MFEM/1024                              107.57 ns
+Vector_EQ_MFEM/1024_mean                         108.12 ns
+Vector_EQ_MFEM/1024_median                       108.14 ns
+Vector_EQ_MFEM/1024_stddev                       0.53 ns
+Vector_EQ_MFEM/1024_cv                           1635738.41 ns
+Vector_EQ/1024                                   109.32 ns
+Vector_EQ/1024                                   108.96 ns
+Vector_EQ/1024                                   112.46 ns
+Vector_EQ/1024_mean                              110.25 ns
+Vector_EQ/1024_median                            109.32 ns
+Vector_EQ/1024_stddev                            1.93 ns
+Vector_EQ/1024_cv                                5827748.95 ns
+Vector_EQ_Virtuals/1024                          109.78 ns
+Vector_EQ_Virtuals/1024                          109.62 ns
+Vector_EQ_Virtuals/1024                          112.48 ns
+Vector_EQ_Virtuals/1024_mean                     110.63 ns
+Vector_EQ_Virtuals/1024_median                   109.78 ns
+Vector_EQ_Virtuals/1024_stddev                   1.61 ns
+Vector_EQ_Virtuals/1024_cv                       4850089.81 ns
+Vector_EQ_Virtuals_Inlined/1024                  111.24 ns
+Vector_EQ_Virtuals_Inlined/1024                  114.25 ns
+Vector_EQ_Virtuals_Inlined/1024                  111.30 ns
+Vector_EQ_Virtuals_Inlined/1024_mean             112.26 ns
+Vector_EQ_Virtuals_Inlined/1024_median           111.30 ns
+Vector_EQ_Virtuals_Inlined/1024_stddev           1.73 ns
+Vector_EQ_Virtuals_Inlined/1024_cv               5122163.26 ns
+Vector_PE_MFEM/1024                              142.79 ns
+Vector_PE_MFEM/1024                              145.33 ns
+Vector_PE_MFEM/1024                              142.98 ns
+Vector_PE_MFEM/1024_mean                         143.70 ns
+Vector_PE_MFEM/1024_median                       142.98 ns
+Vector_PE_MFEM/1024_stddev                       1.41 ns
+Vector_PE_MFEM/1024_cv                           3278727.23 ns
+Vector_PE_MFEM_64/1024                           160.80 ns
+Vector_PE_MFEM_64/1024                           164.26 ns
+Vector_PE_MFEM_64/1024                           161.11 ns
+Vector_PE_MFEM_64/1024_mean                      162.06 ns
+Vector_PE_MFEM_64/1024_median                    161.11 ns
+Vector_PE_MFEM_64/1024_stddev                    1.92 ns
+Vector_PE_MFEM_64/1024_cv                        3940746.73 ns
+Vector_PE/1024                                   142.83 ns
+Vector_PE/1024                                   140.98 ns
+Vector_PE/1024                                   140.12 ns
+Vector_PE/1024_mean                              141.31 ns
+Vector_PE/1024_median                            140.98 ns
+Vector_PE/1024_stddev                            1.39 ns
+Vector_PE/1024_cv                                3271770.84 ns
+Vector_PE_Virtuals/1024                          144.38 ns
+Vector_PE_Virtuals/1024                          141.70 ns
+Vector_PE_Virtuals/1024                          141.58 ns
+Vector_PE_Virtuals/1024_mean                     142.56 ns
+Vector_PE_Virtuals/1024_median                   141.70 ns
+Vector_PE_Virtuals/1024_stddev                   1.58 ns
+Vector_PE_Virtuals/1024_cv                       3697350.19 ns
+Vector_Virtuals_Inlined_PE/1024                  145.55 ns
+Vector_Virtuals_Inlined_PE/1024                  142.24 ns
+Vector_Virtuals_Inlined_PE/1024                  142.16 ns
+Vector_Virtuals_Inlined_PE/1024_mean             143.32 ns
+Vector_Virtuals_Inlined_PE/1024_median           142.24 ns
+Vector_Virtuals_Inlined_PE/1024_stddev           1.94 ns
+Vector_Virtuals_Inlined_PE/1024_cv               4506808.90 ns
+Base/1024                                        0.21 ns
+Base/1024                                        0.20 ns
+Base/1024                                        0.21 ns
+Base/1024_mean                                   0.21 ns
+Base/1024_median                                 0.21 ns
+Base/1024_stddev                                 0.00 ns
+Base/1024_cv                                     5487750.56 ns
+Base_Virtuals_inlined/1024                       0.20 ns
+Base_Virtuals_inlined/1024                       0.21 ns
+Base_Virtuals_inlined/1024                       0.20 ns
+Base_Virtuals_inlined/1024_mean                  0.21 ns
+Base_Virtuals_inlined/1024_median                0.20 ns
+Base_Virtuals_inlined/1024_stddev                0.00 ns
+Base_Virtuals_inlined/1024_cv                    6394995.27 ns
+Base_Virtuals_Derived_not_inlined/1024           1.05 ns
+Base_Virtuals_Derived_not_inlined/1024           1.07 ns
+Base_Virtuals_Derived_not_inlined/1024           1.05 ns
+Base_Virtuals_Derived_not_inlined/1024_mean      1.05 ns
+Base_Virtuals_Derived_not_inlined/1024_median    1.05 ns
+Base_Virtuals_Derived_not_inlined/1024_stddev    0.01 ns
+Base_Virtuals_Derived_not_inlined/1024_cv        4702795.28 ns

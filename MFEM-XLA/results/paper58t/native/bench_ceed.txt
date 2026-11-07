@@ -1,0 +1,119 @@
+device : cuda
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+The number of inputs is very large. BP1 will be repeated at least 329 times.
+The number of inputs is very large. BP1tet will be repeated at least 329 times.
+The number of inputs is very large. BP2 will be repeated at least 329 times.
+The number of inputs is very large. BP3 will be repeated at least 329 times.
+The number of inputs is very large. BP3tet will be repeated at least 329 times.
+The number of inputs is very large. BP4 will be repeated at least 329 times.
+The number of inputs is very large. BP5 will be repeated at least 329 times.
+The number of inputs is very large. BP5tet will be repeated at least 329 times.
+The number of inputs is very large. BP7tet will be repeated at least 329 times.
+The number of inputs is very large. BP6 will be repeated at least 329 times.
+The number of inputs is very large. BK1 will be repeated at least 329 times.
+The number of inputs is very large. BK2 will be repeated at least 329 times.
+The number of inputs is very large. BK3 will be repeated at least 329 times.
+The number of inputs is very large. BK4 will be repeated at least 329 times.
+The number of inputs is very large. BK5 will be repeated at least 329 times.
+The number of inputs is very large. BK6 will be repeated at least 329 times.
+2026-11-04T06:32:06-06:00
+Running /home/wmoses/ejwork/mfem_builds/native/tests/benchmarks/bench_ceed
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 6.51, 7.04, 10.00
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+--------------------------------------------------------------------------------------------------------
+Benchmark                  Time             CPU   Iterations       Dofs     MDof/s      Order  Simplices
+--------------------------------------------------------------------------------------------------------
+[0;32mBP1/4/96          [m[0;33m      8.79 ms         8.79 ms   [m[0;36m        80[m   912.673k[m 3.32308k/s[m          4[m          0[m
+[m[0;32mBP1/4/96          [m[0;33m      8.79 ms         8.79 ms   [m[0;36m        80[m   912.673k[m 3.32304k/s[m          4[m          0[m
+[m[0;32mBP1/4/96          [m[0;33m      8.81 ms         8.81 ms   [m[0;36m        80[m   912.673k[m 3.31445k/s[m          4[m          0[m
+[m[0;32mBP1/4/96_mean     [m[0;33m      8.80 ms         8.80 ms   [m[0;36m         3[m   912.673k[m 3.32019k/s[m          4[m          0[m
+[m[0;32mBP1/4/96_median   [m[0;33m      8.79 ms         8.79 ms   [m[0;36m         3[m   912.673k[m 3.32304k/s[m          4[m          0[m
+[m[0;32mBP1/4/96_stddev   [m[0;33m     0.013 ms        0.013 ms   [m[0;36m         3[m          0[m  4.96756/s[m          0[m          0[m
+[m[0;32mBP1/4/96_cv       [m[0;33m      0.15 %          0.15 %    [m[0;36m         3[m      0.00%[m      0.15%[m      0.00%[m      0.00%[m
+[m[0;32mBP1/2/96          [m[0;33m      10.2 ms         10.2 ms   [m[0;36m        69[m   912.673k[m 2.85725k/s[m          2[m          0[m
+[m[0;32mBP1/2/96          [m[0;33m      10.1 ms         10.1 ms   [m[0;36m        69[m   912.673k[m   2.892k/s[m          2[m          0[m
+[m[0;32mBP1/2/96          [m[0;33m      10.1 ms         10.1 ms   [m[0;36m        69[m   912.673k[m  2.8892k/s[m          2[m          0[m
+[m[0;32mBP1/2/96_mean     [m[0;33m      10.1 ms         10.1 ms   [m[0;36m         3[m   912.673k[m 2.87948k/s[m          2[m          0[m
+[m[0;32mBP1/2/96_median   [m[0;33m      10.1 ms         10.1 ms   [m[0;36m         3[m   912.673k[m  2.8892k/s[m          2[m          0[m
+[m[0;32mBP1/2/96_stddev   [m[0;33m     0.068 ms        0.068 ms   [m[0;36m         3[m          0[m  19.3078/s[m          0[m          0[m
+[m[0;32mBP1/2/96_cv       [m[0;33m      0.67 %          0.67 %    [m[0;36m         3[m      0.00%[m      0.67%[m      0.00%[m      0.00%[m
+[m[0;32mBP2/4/96          [m[0;33m      22.1 ms         22.1 ms   [m[0;36m        32[m   2.73802M[m 3.97189k/s[m          4[m          0[m
+[m[0;32mBP2/4/96          [m[0;33m      22.1 ms         22.1 ms   [m[0;36m        32[m   2.73802M[m 3.97019k/s[m          4[m          0[m
+[m[0;32mBP2/4/96          [m[0;33m      22.1 ms         22.1 ms   [m[0;36m        32[m   2.73802M[m 3.97133k/s[m          4[m          0[m
+[m[0;32mBP2/4/96_mean     [m[0;33m      22.1 ms         22.1 ms   [m[0;36m         3[m   2.73802M[m 3.97114k/s[m          4[m          0[m
+[m[0;32mBP2/4/96_median   [m[0;33m      22.1 ms         22.1 ms   [m[0;36m         3[m   2.73802M[m 3.97133k/s[m          4[m          0[m
+[m[0;32mBP2/4/96_stddev   [m[0;33m     0.004 ms        0.005 ms   [m[0;36m         3[m          0[m 0.863828/s[m          0[m          0[m
+[m[0;32mBP2/4/96_cv       [m[0;33m      0.02 %          0.02 %    [m[0;36m         3[m      0.00%[m      0.02%[m      0.00%[m      0.00%[m
+[m[0;32mBP2/2/96          [m[0;33m      41.3 ms         41.3 ms   [m[0;36m        17[m   2.73802M[m 2.12076k/s[m          2[m          0[m
+[m[0;32mBP2/2/96          [m[0;33m      41.3 ms         41.3 ms   [m[0;36m        17[m   2.73802M[m 2.11954k/s[m          2[m          0[m
+[m[0;32mBP2/2/96          [m[0;33m      41.3 ms         41.3 ms   [m[0;36m        17[m   2.73802M[m 2.12032k/s[m          2[m          0[m
+[m[0;32mBP2/2/96_mean     [m[0;33m      41.3 ms         41.3 ms   [m[0;36m         3[m   2.73802M[m 2.12021k/s[m          2[m          0[m
+[m[0;32mBP2/2/96_median   [m[0;33m      41.3 ms         41.3 ms   [m[0;36m         3[m   2.73802M[m 2.12032k/s[m          2[m          0[m
+[m[0;32mBP2/2/96_stddev   [m[0;33m     0.014 ms        0.012 ms   [m[0;36m         3[m          0[m 0.619476/s[m          0[m          0[m
+[m[0;32mBP2/2/96_cv       [m[0;33m      0.03 %          0.03 %    [m[0;36m         3[m      0.00%[m      0.03%[m      0.00%[m      0.00%[m
+[m[0;32mBP3/4/96          [m[0;33m      14.9 ms         14.9 ms   [m[0;36m        47[m   912.673k[m 1.95912k/s[m          4[m          0[m
+[m[0;32mBP3/4/96          [m[0;33m      14.9 ms         14.9 ms   [m[0;36m        47[m   912.673k[m 1.95915k/s[m          4[m          0[m
+[m[0;32mBP3/4/96          [m[0;33m      14.9 ms         14.9 ms   [m[0;36m        47[m   912.673k[m  1.9547k/s[m          4[m          0[m
+[m[0;32mBP3/4/96_mean     [m[0;33m      14.9 ms         14.9 ms   [m[0;36m         3[m   912.673k[m 1.95766k/s[m          4[m          0[m
+[m[0;32mBP3/4/96_median   [m[0;33m      14.9 ms         14.9 ms   [m[0;36m         3[m   912.673k[m 1.95912k/s[m          4[m          0[m
+[m[0;32mBP3/4/96_stddev   [m[0;33m     0.020 ms        0.020 ms   [m[0;36m         3[m          0[m  2.55979/s[m          0[m          0[m
+[m[0;32mBP3/4/96_cv       [m[0;33m      0.13 %          0.13 %    [m[0;36m         3[m      0.00%[m      0.13%[m      0.00%[m      0.00%[m
+[m[0;32mBP3/2/96          [m[0;33m      23.1 ms         23.1 ms   [m[0;36m        30[m   912.673k[m 1.26329k/s[m          2[m          0[m
+[m[0;32mBP3/2/96          [m[0;33m      23.1 ms         23.1 ms   [m[0;36m        30[m   912.673k[m 1.26326k/s[m          2[m          0[m
+[m[0;32mBP3/2/96          [m[0;33m      23.2 ms         23.2 ms   [m[0;36m        30[m   912.673k[m 1.26137k/s[m          2[m          0[m
+[m[0;32mBP3/2/96_mean     [m[0;33m      23.1 ms         23.1 ms   [m[0;36m         3[m   912.673k[m 1.26264k/s[m          2[m          0[m
+[m[0;32mBP3/2/96_median   [m[0;33m      23.1 ms         23.1 ms   [m[0;36m         3[m   912.673k[m 1.26326k/s[m          2[m          0[m
+[m[0;32mBP3/2/96_stddev   [m[0;33m     0.019 ms        0.020 ms   [m[0;36m         3[m          0[m  1.10331/s[m          0[m          0[m
+[m[0;32mBP3/2/96_cv       [m[0;33m      0.08 %          0.09 %    [m[0;36m         3[m      0.00%[m      0.09%[m      0.00%[m      0.00%[m
+[m[0;32mBP4/4/96          [m[0;33m      55.4 ms         55.4 ms   [m[0;36m        13[m   2.73802M[m 1.58178k/s[m          4[m          0[m
+[m[0;32mBP4/4/96          [m[0;33m      55.4 ms         55.4 ms   [m[0;36m        13[m   2.73802M[m  1.5817k/s[m          4[m          0[m
+[m[0;32mBP4/4/96          [m[0;33m      55.4 ms         55.4 ms   [m[0;36m        13[m   2.73802M[m 1.58274k/s[m          4[m          0[m
+[m[0;32mBP4/4/96_mean     [m[0;33m      55.4 ms         55.4 ms   [m[0;36m         3[m   2.73802M[m 1.58207k/s[m          4[m          0[m
+[m[0;32mBP4/4/96_median   [m[0;33m      55.4 ms         55.4 ms   [m[0;36m         3[m   2.73802M[m 1.58178k/s[m          4[m          0[m
+[m[0;32mBP4/4/96_stddev   [m[0;33m     0.022 ms        0.020 ms   [m[0;36m         3[m          0[m 0.576934/s[m          0[m          0[m
+[m[0;32mBP4/4/96_cv       [m[0;33m      0.04 %          0.04 %    [m[0;36m         3[m      0.00%[m      0.04%[m      0.00%[m      0.00%[m
+[m[0;32mBP4/2/96          [m[0;33m       109 ms          109 ms   [m[0;36m         6[m   2.73802M[m  804.343/s[m          2[m          0[m
+[m[0;32mBP4/2/96          [m[0;33m       109 ms          109 ms   [m[0;36m         6[m   2.73802M[m  804.375/s[m          2[m          0[m
+[m[0;32mBP4/2/96          [m[0;33m       109 ms          109 ms   [m[0;36m         6[m   2.73802M[m  804.342/s[m          2[m          0[m
+[m[0;32mBP4/2/96_mean     [m[0;33m       109 ms          109 ms   [m[0;36m         3[m   2.73802M[m  804.354/s[m          2[m          0[m
+[m[0;32mBP4/2/96_median   [m[0;33m       109 ms          109 ms   [m[0;36m         3[m   2.73802M[m  804.343/s[m          2[m          0[m
+[m[0;32mBP4/2/96_stddev   [m[0;33m     0.003 ms        0.003 ms   [m[0;36m         3[m          0[m 0.0186714/s[m          0[m          0[m
+[m[0;32mBP4/2/96_cv       [m[0;33m      0.00 %          0.00 %    [m[0;36m         3[m      0.00%[m      0.00%[m      0.00%[m      0.00%[m
+[m[0;32mBP5/4/96          [m[0;33m      10.1 ms         10.1 ms   [m[0;36m        70[m   912.673k[m 2.88925k/s[m          4[m          0[m
+[m[0;32mBP5/4/96          [m[0;33m      10.1 ms         10.1 ms   [m[0;36m        70[m   912.673k[m 2.89704k/s[m          4[m          0[m
+[m[0;32mBP5/4/96          [m[0;33m      10.1 ms         10.1 ms   [m[0;36m        70[m   912.673k[m 2.88847k/s[m          4[m          0[m
+[m[0;32mBP5/4/96_mean     [m[0;33m      10.1 ms         10.1 ms   [m[0;36m         3[m   912.673k[m 2.89159k/s[m          4[m          0[m
+[m[0;32mBP5/4/96_median   [m[0;33m      10.1 ms         10.1 ms   [m[0;36m         3[m   912.673k[m 2.88925k/s[m          4[m          0[m
+[m[0;32mBP5/4/96_stddev   [m[0;33m     0.017 ms        0.017 ms   [m[0;36m         3[m          0[m   4.7384/s[m          0[m          0[m
+[m[0;32mBP5/4/96_cv       [m[0;33m      0.17 %          0.16 %    [m[0;36m         3[m      0.00%[m      0.16%[m      0.00%[m      0.00%[m
+[m[0;32mBP5/2/96          [m[0;33m      13.1 ms         13.1 ms   [m[0;36m        54[m   912.673k[m 2.23782k/s[m          2[m          0[m
+[m[0;32mBP5/2/96          [m[0;33m      13.0 ms         13.0 ms   [m[0;36m        54[m   912.673k[m 2.24045k/s[m          2[m          0[m
+[m[0;32mBP5/2/96          [m[0;33m      13.1 ms         13.1 ms   [m[0;36m        54[m   912.673k[m 2.23259k/s[m          2[m          0[m
+[m[0;32mBP5/2/96_mean     [m[0;33m      13.1 ms         13.1 ms   [m[0;36m         3[m   912.673k[m 2.23695k/s[m          2[m          0[m
+[m[0;32mBP5/2/96_median   [m[0;33m      13.1 ms         13.1 ms   [m[0;36m         3[m   912.673k[m 2.23782k/s[m          2[m          0[m
+[m[0;32mBP5/2/96_stddev   [m[0;33m     0.024 ms        0.023 ms   [m[0;36m         3[m          0[m  4.00224/s[m          0[m          0[m
+[m[0;32mBP5/2/96_cv       [m[0;33m      0.18 %          0.18 %    [m[0;36m         3[m      0.00%[m      0.18%[m      0.00%[m      0.00%[m
+[m[0;32mBP6/4/96          [m[0;33m      35.2 ms         35.2 ms   [m[0;36m        20[m   2.73802M[m 2.48896k/s[m          4[m          0[m
+[m[0;32mBP6/4/96          [m[0;33m      35.2 ms         35.2 ms   [m[0;36m        20[m   2.73802M[m 2.48845k/s[m          4[m          0[m
+[m[0;32mBP6/4/96          [m[0;33m      35.2 ms         35.2 ms   [m[0;36m        20[m   2.73802M[m 2.49046k/s[m          4[m          0[m
+[m[0;32mBP6/4/96_mean     [m[0;33m      35.2 ms         35.2 ms   [m[0;36m         3[m   2.73802M[m 2.48929k/s[m          4[m          0[m
+[m[0;32mBP6/4/96_median   [m[0;33m      35.2 ms         35.2 ms   [m[0;36m         3[m   2.73802M[m 2.48896k/s[m          4[m          0[m
+[m[0;32mBP6/4/96_stddev   [m[0;33m     0.015 ms        0.015 ms   [m[0;36m         3[m          0[m  1.04465/s[m          0[m          0[m
+[m[0;32mBP6/4/96_cv       [m[0;33m      0.04 %          0.04 %    [m[0;36m         3[m      0.00%[m      0.04%[m      0.00%[m      0.00%[m
+[m[0;32mBP6/2/96          [m[0;33m      92.7 ms         92.6 ms   [m[0;36m         8[m   2.73802M[m   945.78/s[m          2[m          0[m
+[m[0;32mBP6/2/96          [m[0;33m      92.7 ms         92.7 ms   [m[0;36m         8[m   2.73802M[m  945.548/s[m          2[m          0[m
+[m[0;32mBP6/2/96          [m[0;33m      92.6 ms         92.6 ms   [m[0;36m         8[m   2.73802M[m  945.736/s[m          2[m          0[m
+[m[0;32mBP6/2/96_mean     [m[0;33m      92.7 ms         92.6 ms   [m[0;36m         3[m   2.73802M[m  945.688/s[m          2[m          0[m
+[m[0;32mBP6/2/96_median   [m[0;33m      92.7 ms         92.6 ms   [m[0;36m         3[m   2.73802M[m  945.736/s[m          2[m          0[m
+[m[0;32mBP6/2/96_stddev   [m[0;33m     0.011 ms        0.012 ms   [m[0;36m         3[m          0[m 0.123419/s[m          0[m          0[m
+[m[0;32mBP6/2/96_cv       [m[0;33m      0.01 %          0.01 %    [m[0;36m         3[m      0.00%[m      0.01%[m      0.00%[m      0.00%[m
+[m

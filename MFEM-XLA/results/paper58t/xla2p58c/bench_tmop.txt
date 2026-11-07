@@ -1,0 +1,256 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1793796159.546345 2833706 service.cc:156] XLA service 0x5e3f9b1d6220 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1793796159.546405 2833706 service.cc:172]   StreamExecutor [0]: NVIDIA GeForce RTX 5090, Compute Capability 12.0a (Driver: 12.9.0[575.57.8]; Runtime: 12.9.0; Toolkit: 12.9.0; DNN: 9.21.0)
+I0000 00:00:1793796159.547316 2833706 se_gpu_pjrt_client.cc:1487] Using BFC allocator.
+I0000 00:00:1793796159.547354 2833706 gpu_helpers.cc:258] XLA backend allocating 23.52GiB (25249710080 bytes) on device 0 for BFCAllocator.
+device : cuda
+Device configuration: cuda,cpu
+Memory configuration: host-std,cuda
+2026-11-04T06:42:39-06:00
+Running /home/wmoses/ejwork/mfem_builds/xla2p58c/tests/benchmarks/bench_tmop
+Run on (192 X 6853 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x96)
+  L1 Instruction 32 KiB (x96)
+  L2 Unified 1024 KiB (x96)
+  L3 Unified 32768 KiB (x12)
+Load Average: 3.56, 4.98, 7.46
+device: cuda
+***WARNING*** CPU scaling is enabled, the benchmark real time measurements may be noisy and will incur extra overhead.
+***WARNING*** ASLR is enabled, the results may have unreproducible noise in them.
+--------------------------------------------------------------------------------------------------
+Benchmark                                  Time             CPU   Iterations       MDof     MDof/s
+--------------------------------------------------------------------------------------------------
+[0;32mAddMultPA/0/1                     [m[0;33m      99.4 us         99.4 us   [m[0;36m      6966[m  148.272/s[m    150.981[m
+[m[0;32mAddMultPA/0/1                     [m[0;33m       100 us          100 us   [m[0;36m      6966[m  147.011/s[m    149.849[m
+[m[0;32mAddMultPA/0/1                     [m[0;33m      99.8 us         99.8 us   [m[0;36m      6966[m  147.752/s[m    150.506[m
+[m[0;32mAddMultPA/0/1_mean                [m[0;33m      99.8 us         99.8 us   [m[0;36m         3[m  147.678/s[m    150.445[m
+[m[0;32mAddMultPA/0/1_median              [m[0;33m      99.8 us         99.8 us   [m[0;36m         3[m  147.752/s[m    150.506[m
+[m[0;32mAddMultPA/0/1_stddev              [m[0;33m     0.429 us        0.428 us   [m[0;36m         3[m 0.633453/s[m   0.568458[m
+[m[0;32mAddMultPA/0/1_cv                  [m[0;33m      0.43 %          0.43 %    [m[0;36m         3[m      0.43%[m      0.38%[m
+[m[0;32mAddMultPA/1/1                     [m[0;33m       107 us          107 us   [m[0;36m      6307[m  138.313/s[m    140.749[m
+[m[0;32mAddMultPA/1/1                     [m[0;33m       108 us          108 us   [m[0;36m      6307[m  136.651/s[m    139.375[m
+[m[0;32mAddMultPA/1/1                     [m[0;33m       109 us          109 us   [m[0;36m      6307[m  135.091/s[m    138.127[m
+[m[0;32mAddMultPA/1/1_mean                [m[0;33m       108 us          108 us   [m[0;36m         3[m  136.685/s[m    139.417[m
+[m[0;32mAddMultPA/1/1_median              [m[0;33m       108 us          108 us   [m[0;36m         3[m  136.651/s[m    139.375[m
+[m[0;32mAddMultPA/1/1_stddev              [m[0;33m      1.27 us         1.27 us   [m[0;36m         3[m  1.61159/s[m    1.31151[m
+[m[0;32mAddMultPA/1/1_cv                  [m[0;33m      1.18 %          1.18 %    [m[0;36m         3[m      1.18%[m      0.94%[m
+[m[0;32mAddMultPA/0/2                     [m[0;33m       225 us          225 us   [m[0;36m      3086[m  478.748/s[m    482.783[m
+[m[0;32mAddMultPA/0/2                     [m[0;33m       225 us          225 us   [m[0;36m      3086[m  479.605/s[m    483.456[m
+[m[0;32mAddMultPA/0/2                     [m[0;33m       225 us          225 us   [m[0;36m      3086[m  479.629/s[m    483.555[m
+[m[0;32mAddMultPA/0/2_mean                [m[0;33m       225 us          225 us   [m[0;36m         3[m  479.327/s[m    483.265[m
+[m[0;32mAddMultPA/0/2_median              [m[0;33m       225 us          225 us   [m[0;36m         3[m  479.605/s[m    483.456[m
+[m[0;32mAddMultPA/0/2_stddev              [m[0;33m     0.229 us        0.236 us   [m[0;36m         3[m 0.501792/s[m   0.419778[m
+[m[0;32mAddMultPA/0/2_cv                  [m[0;33m      0.10 %          0.10 %    [m[0;36m         3[m      0.10%[m      0.09%[m
+[m[0;32mAddMultPA/1/2                     [m[0;33m       115 us          115 us   [m[0;36m      6041[m  940.901/s[m    955.834[m
+[m[0;32mAddMultPA/1/2                     [m[0;33m       116 us          116 us   [m[0;36m      6041[m  932.793/s[m    948.222[m
+[m[0;32mAddMultPA/1/2                     [m[0;33m       115 us          115 us   [m[0;36m      6041[m  939.293/s[m    954.424[m
+[m[0;32mAddMultPA/1/2_mean                [m[0;33m       115 us          115 us   [m[0;36m         3[m  937.662/s[m    952.827[m
+[m[0;32mAddMultPA/1/2_median              [m[0;33m       115 us          115 us   [m[0;36m         3[m  939.293/s[m    954.424[m
+[m[0;32mAddMultPA/1/2_stddev              [m[0;33m     0.531 us        0.528 us   [m[0;36m         3[m  4.29283/s[m    4.04964[m
+[m[0;32mAddMultPA/1/2_cv                  [m[0;33m      0.46 %          0.46 %    [m[0;36m         3[m      0.46%[m      0.43%[m
+[m[0;32mAddMultPA/0/3                     [m[0;33m       404 us          404 us   [m[0;36m      1722[m  873.204/s[m    877.132[m
+[m[0;32mAddMultPA/0/3                     [m[0;33m       405 us          405 us   [m[0;36m      1722[m  872.047/s[m    876.212[m
+[m[0;32mAddMultPA/0/3                     [m[0;33m       404 us          404 us   [m[0;36m      1722[m  873.779/s[m    877.597[m
+[m[0;32mAddMultPA/0/3_mean                [m[0;33m       404 us          404 us   [m[0;36m         3[m   873.01/s[m     876.98[m
+[m[0;32mAddMultPA/0/3_median              [m[0;33m       404 us          404 us   [m[0;36m         3[m  873.204/s[m    877.132[m
+[m[0;32mAddMultPA/0/3_stddev              [m[0;33m     0.389 us        0.409 us   [m[0;36m         3[m 0.882641/s[m    0.70515[m
+[m[0;32mAddMultPA/0/3_cv                  [m[0;33m      0.10 %          0.10 %    [m[0;36m         3[m      0.10%[m      0.08%[m
+[m[0;32mAddMultPA/1/3                     [m[0;33m       269 us          269 us   [m[0;36m      2580[m 1.31047k/s[m   1.31937k[m
+[m[0;32mAddMultPA/1/3                     [m[0;33m       270 us          270 us   [m[0;36m      2580[m  1.3071k/s[m   1.31631k[m
+[m[0;32mAddMultPA/1/3                     [m[0;33m       269 us          269 us   [m[0;36m      2580[m 1.31093k/s[m   1.31972k[m
+[m[0;32mAddMultPA/1/3_mean                [m[0;33m       270 us          270 us   [m[0;36m         3[m  1.3095k/s[m   1.31847k[m
+[m[0;32mAddMultPA/1/3_median              [m[0;33m       269 us          269 us   [m[0;36m         3[m 1.31047k/s[m   1.31937k[m
+[m[0;32mAddMultPA/1/3_stddev              [m[0;33m     0.434 us        0.431 us   [m[0;36m         3[m  2.09422/s[m    1.87646[m
+[m[0;32mAddMultPA/1/3_cv                  [m[0;33m      0.16 %          0.16 %    [m[0;36m         3[m      0.16%[m      0.14%[m
+[m[0;32mAddMultPA/0/4                     [m[0;33m       865 us          865 us   [m[0;36m       799[m  952.588/s[m     954.81[m
+[m[0;32mAddMultPA/0/4                     [m[0;33m       864 us          864 us   [m[0;36m       799[m  953.822/s[m     955.89[m
+[m[0;32mAddMultPA/0/4                     [m[0;33m       865 us          865 us   [m[0;36m       799[m  952.871/s[m     955.04[m
+[m[0;32mAddMultPA/0/4_mean                [m[0;33m       864 us          864 us   [m[0;36m         3[m  953.094/s[m    955.247[m
+[m[0;32mAddMultPA/0/4_median              [m[0;33m       865 us          865 us   [m[0;36m         3[m  952.871/s[m     955.04[m
+[m[0;32mAddMultPA/0/4_stddev              [m[0;33m     0.586 us        0.586 us   [m[0;36m         3[m 0.646824/s[m   0.568484[m
+[m[0;32mAddMultPA/0/4_cv                  [m[0;33m      0.07 %          0.07 %    [m[0;36m         3[m      0.07%[m      0.06%[m
+[m[0;32mAddMultPA/1/4                     [m[0;33m       523 us          523 us   [m[0;36m      1333[m 1.57518k/s[m   1.58098k[m
+[m[0;32mAddMultPA/1/4                     [m[0;33m       522 us          522 us   [m[0;36m      1333[m 1.57705k/s[m   1.58258k[m
+[m[0;32mAddMultPA/1/4                     [m[0;33m       523 us          523 us   [m[0;36m      1333[m 1.57617k/s[m   1.58185k[m
+[m[0;32mAddMultPA/1/4_mean                [m[0;33m       523 us          523 us   [m[0;36m         3[m 1.57614k/s[m    1.5818k[m
+[m[0;32mAddMultPA/1/4_median              [m[0;33m       523 us          523 us   [m[0;36m         3[m 1.57617k/s[m   1.58185k[m
+[m[0;32mAddMultPA/1/4_stddev              [m[0;33m     0.324 us        0.311 us   [m[0;36m         3[m 0.936353/s[m   0.798645[m
+[m[0;32mAddMultPA/1/4_cv                  [m[0;33m      0.06 %          0.06 %    [m[0;36m         3[m      0.06%[m      0.05%[m
+[m[0;32mAddMultGradPA/0/1                 [m[0;33m      88.5 us         88.5 us   [m[0;36m      7601[m  166.514/s[m    169.914[m
+[m[0;32mAddMultGradPA/0/1                 [m[0;33m      88.6 us         88.6 us   [m[0;36m      7601[m  166.413/s[m    169.851[m
+[m[0;32mAddMultGradPA/0/1                 [m[0;33m      88.3 us         88.3 us   [m[0;36m      7601[m  166.978/s[m    170.295[m
+[m[0;32mAddMultGradPA/0/1_mean            [m[0;33m      88.5 us         88.5 us   [m[0;36m         3[m  166.635/s[m     170.02[m
+[m[0;32mAddMultGradPA/0/1_median          [m[0;33m      88.5 us         88.5 us   [m[0;36m         3[m  166.514/s[m    169.914[m
+[m[0;32mAddMultGradPA/0/1_stddev          [m[0;33m     0.160 us        0.160 us   [m[0;36m         3[m 0.301278/s[m   0.240287[m
+[m[0;32mAddMultGradPA/0/1_cv              [m[0;33m      0.18 %          0.18 %    [m[0;36m         3[m      0.18%[m      0.14%[m
+[m[0;32mAddMultGradPA/1/1                 [m[0;33m      39.7 us         39.7 us   [m[0;36m     17728[m  370.808/s[m    388.357[m
+[m[0;32mAddMultGradPA/1/1                 [m[0;33m      39.5 us         39.5 us   [m[0;36m     17728[m    373.6/s[m    390.478[m
+[m[0;32mAddMultGradPA/1/1                 [m[0;33m      39.7 us         39.7 us   [m[0;36m     17728[m  371.705/s[m    389.063[m
+[m[0;32mAddMultGradPA/1/1_mean            [m[0;33m      39.6 us         39.6 us   [m[0;36m         3[m  372.038/s[m    389.299[m
+[m[0;32mAddMultGradPA/1/1_median          [m[0;33m      39.7 us         39.7 us   [m[0;36m         3[m  371.705/s[m    389.063[m
+[m[0;32mAddMultGradPA/1/1_stddev          [m[0;33m     0.152 us        0.152 us   [m[0;36m         3[m  1.42552/s[m     1.0798[m
+[m[0;32mAddMultGradPA/1/1_cv              [m[0;33m      0.38 %          0.38 %    [m[0;36m         3[m      0.38%[m      0.28%[m
+[m[0;32mAddMultGradPA/0/2                 [m[0;33m       307 us          307 us   [m[0;36m      2138[m  350.729/s[m    352.801[m
+[m[0;32mAddMultGradPA/0/2                 [m[0;33m       307 us          307 us   [m[0;36m      2138[m  351.195/s[m    353.195[m
+[m[0;32mAddMultGradPA/0/2                 [m[0;33m       307 us          307 us   [m[0;36m      2138[m  351.087/s[m    353.092[m
+[m[0;32mAddMultGradPA/0/2_mean            [m[0;33m       307 us          307 us   [m[0;36m         3[m  351.004/s[m    353.029[m
+[m[0;32mAddMultGradPA/0/2_median          [m[0;33m       307 us          307 us   [m[0;36m         3[m  351.087/s[m    353.092[m
+[m[0;32mAddMultGradPA/0/2_stddev          [m[0;33m     0.215 us        0.214 us   [m[0;36m         3[m 0.243934/s[m   0.204668[m
+[m[0;32mAddMultGradPA/0/2_cv              [m[0;33m      0.07 %          0.07 %    [m[0;36m         3[m      0.07%[m      0.06%[m
+[m[0;32mAddMultGradPA/1/2                 [m[0;33m       121 us          121 us   [m[0;36m      5576[m  888.042/s[m     901.69[m
+[m[0;32mAddMultGradPA/1/2                 [m[0;33m       121 us          121 us   [m[0;36m      5576[m  891.079/s[m    904.225[m
+[m[0;32mAddMultGradPA/1/2                 [m[0;33m       121 us          121 us   [m[0;36m      5576[m  889.079/s[m    902.143[m
+[m[0;32mAddMultGradPA/1/2_mean            [m[0;33m       121 us          121 us   [m[0;36m         3[m    889.4/s[m    902.686[m
+[m[0;32mAddMultGradPA/1/2_median          [m[0;33m       121 us          121 us   [m[0;36m         3[m  889.079/s[m    902.143[m
+[m[0;32mAddMultGradPA/1/2_stddev          [m[0;33m     0.208 us        0.210 us   [m[0;36m         3[m  1.54393/s[m    1.35214[m
+[m[0;32mAddMultGradPA/1/2_cv              [m[0;33m      0.17 %          0.17 %    [m[0;36m         3[m      0.17%[m      0.15%[m
+[m[0;32mAddMultGradPA/0/3                 [m[0;33m       589 us          589 us   [m[0;36m      1063[m  598.969/s[m    600.792[m
+[m[0;32mAddMultGradPA/0/3                 [m[0;33m       589 us          589 us   [m[0;36m      1063[m  598.909/s[m    600.697[m
+[m[0;32mAddMultGradPA/0/3                 [m[0;33m       589 us          589 us   [m[0;36m      1063[m  599.013/s[m    600.826[m
+[m[0;32mAddMultGradPA/0/3_mean            [m[0;33m       589 us          589 us   [m[0;36m         3[m  598.964/s[m    600.772[m
+[m[0;32mAddMultGradPA/0/3_median          [m[0;33m       589 us          589 us   [m[0;36m         3[m  598.969/s[m    600.792[m
+[m[0;32mAddMultGradPA/0/3_stddev          [m[0;33m     0.049 us        0.052 us   [m[0;36m         3[m 0.0525223/s[m  0.0669029[m
+[m[0;32mAddMultGradPA/0/3_cv              [m[0;33m      0.01 %          0.01 %    [m[0;36m         3[m      0.01%[m      0.01%[m
+[mI0000 00:00:1793796571.117992 2917861 ptx_compiler_helpers.cc:132] ptxas warning : Registers are spilled to local memory in function 'loop_transpose_fusion_1', 8 bytes spill stores, 8 bytes spill loads
+ 
+I0000 00:00:1793796571.151514 2917848 ptx_compiler_helpers.cc:132] ptxas warning : Registers are spilled to local memory in function 'loop_transpose_fusion', 8 bytes spill stores, 8 bytes spill loads
+ 
+I0000 00:00:1793796577.305633 2918871 ptx_compiler_helpers.cc:132] ptxas warning : Registers are spilled to local memory in function 'loop_transpose_fusion_1', 24 bytes spill stores, 24 bytes spill loads
+ 
+I0000 00:00:1793796577.422772 2918881 ptx_compiler_helpers.cc:132] ptxas warning : Registers are spilled to local memory in function 'loop_transpose_fusion', 24 bytes spill stores, 24 bytes spill loads
+ 
+[0;32mAddMultGradPA/1/3                 [m[0;33m       347 us          347 us   [m[0;36m      1905[m 1.01808k/s[m   1.02311k[m
+[m[0;32mAddMultGradPA/1/3                 [m[0;33m       347 us          347 us   [m[0;36m      1905[m 1.01696k/s[m    1.0224k[m
+[m[0;32mAddMultGradPA/1/3                 [m[0;33m       347 us          347 us   [m[0;36m      1905[m 1.01715k/s[m   1.02217k[m
+[m[0;32mAddMultGradPA/1/3_mean            [m[0;33m       347 us          347 us   [m[0;36m         3[m  1.0174k/s[m   1.02256k[m
+[m[0;32mAddMultGradPA/1/3_median          [m[0;33m       347 us          347 us   [m[0;36m         3[m 1.01715k/s[m    1.0224k[m
+[m[0;32mAddMultGradPA/1/3_stddev          [m[0;33m     0.203 us        0.204 us   [m[0;36m         3[m 0.598951/s[m   0.490675[m
+[m[0;32mAddMultGradPA/1/3_cv              [m[0;33m      0.06 %          0.06 %    [m[0;36m         3[m      0.06%[m      0.05%[m
+[m[0;32mAddMultGradPA/0/4                 [m[0;33m      5620 us         5620 us   [m[0;36m       100[m  146.607/s[m    146.717[m
+[m[0;32mAddMultGradPA/0/4                 [m[0;33m      1361 us         1361 us   [m[0;36m       100[m  605.346/s[m    606.163[m
+[m[0;32mAddMultGradPA/0/4                 [m[0;33m      1360 us         1360 us   [m[0;36m       100[m   605.61/s[m    606.584[m
+[m[0;32mAddMultGradPA/0/4_mean            [m[0;33m      2780 us         2780 us   [m[0;36m         3[m  452.521/s[m    453.154[m
+[m[0;32mAddMultGradPA/0/4_median          [m[0;33m      1361 us         1361 us   [m[0;36m         3[m  605.346/s[m    606.163[m
+[m[0;32mAddMultGradPA/0/4_stddev          [m[0;33m      2459 us         2459 us   [m[0;36m         3[m  264.929/s[m    265.383[m
+[m[0;32mAddMultGradPA/0/4_cv              [m[0;33m     88.44 %         88.44 %    [m[0;36m         3[m     58.55%[m     58.56%[m
+[m[0;32mAddMultGradPA/1/4                 [m[0;33m       703 us          703 us   [m[0;36m       969[m 1.17185k/s[m    1.1748k[m
+[m[0;32mAddMultGradPA/1/4                 [m[0;33m       703 us          703 us   [m[0;36m       969[m 1.17157k/s[m   1.17463k[m
+[m[0;32mAddMultGradPA/1/4                 [m[0;33m       703 us          703 us   [m[0;36m       969[m 1.17196k/s[m   1.17492k[m
+[m[0;32mAddMultGradPA/1/4_mean            [m[0;33m       703 us          703 us   [m[0;36m         3[m 1.17179k/s[m   1.17478k[m
+[m[0;32mAddMultGradPA/1/4_median          [m[0;33m       703 us          703 us   [m[0;36m         3[m 1.17185k/s[m    1.1748k[m
+[m[0;32mAddMultGradPA/1/4_stddev          [m[0;33m     0.120 us        0.119 us   [m[0;36m         3[m 0.198151/s[m   0.143154[m
+[m[0;32mAddMultGradPA/1/4_cv              [m[0;33m      0.02 %          0.02 %    [m[0;36m         3[m      0.02%[m      0.01%[m
+[m[0;32mGetLocalStateEnergyPA/0/1         [m[0;33m      89.1 us         89.1 us   [m[0;36m      7825[m  165.455/s[m    169.263[m
+[m[0;32mGetLocalStateEnergyPA/0/1         [m[0;33m      89.4 us         89.4 us   [m[0;36m      7825[m  164.824/s[m    168.718[m
+[m[0;32mGetLocalStateEnergyPA/0/1         [m[0;33m      88.9 us         88.9 us   [m[0;36m      7825[m  165.756/s[m    169.527[m
+[m[0;32mGetLocalStateEnergyPA/0/1_mean    [m[0;33m      89.1 us         89.1 us   [m[0;36m         3[m  165.345/s[m     169.17[m
+[m[0;32mGetLocalStateEnergyPA/0/1_median  [m[0;33m      89.1 us         89.1 us   [m[0;36m         3[m  165.455/s[m    169.263[m
+[m[0;32mGetLocalStateEnergyPA/0/1_stddev  [m[0;33m     0.257 us        0.257 us   [m[0;36m         3[m 0.475339/s[m   0.412555[m
+[m[0;32mGetLocalStateEnergyPA/0/1_cv      [m[0;33m      0.29 %          0.29 %    [m[0;36m         3[m      0.29%[m      0.24%[m
+[m[0;32mGetLocalStateEnergyPA/1/1         [m[0;33m      66.5 us         66.5 us   [m[0;36m     10417[m  221.546/s[m    227.841[m
+[m[0;32mGetLocalStateEnergyPA/1/1         [m[0;33m      67.3 us         67.3 us   [m[0;36m     10417[m  218.941/s[m      225.3[m
+[m[0;32mGetLocalStateEnergyPA/1/1         [m[0;33m      66.5 us         66.5 us   [m[0;36m     10417[m  221.524/s[m    227.903[m
+[m[0;32mGetLocalStateEnergyPA/1/1_mean    [m[0;33m      66.8 us         66.8 us   [m[0;36m         3[m   220.67/s[m    227.015[m
+[m[0;32mGetLocalStateEnergyPA/1/1_median  [m[0;33m      66.5 us         66.5 us   [m[0;36m         3[m  221.524/s[m    227.841[m
+[m[0;32mGetLocalStateEnergyPA/1/1_stddev  [m[0;33m     0.454 us        0.455 us   [m[0;36m         3[m  1.49734/s[m    1.48538[m
+[m[0;32mGetLocalStateEnergyPA/1/1_cv      [m[0;33m      0.68 %          0.68 %    [m[0;36m         3[m      0.68%[m      0.65%[m
+[m[0;32mGetLocalStateEnergyPA/0/2         [m[0;33m       151 us          151 us   [m[0;36m      4540[m  712.869/s[m    722.613[m
+[m[0;32mGetLocalStateEnergyPA/0/2         [m[0;33m       151 us          151 us   [m[0;36m      4540[m   712.97/s[m    722.742[m
+[m[0;32mGetLocalStateEnergyPA/0/2         [m[0;33m       152 us          152 us   [m[0;36m      4540[m  709.843/s[m      719.8[m
+[m[0;32mGetLocalStateEnergyPA/0/2_mean    [m[0;33m       151 us          151 us   [m[0;36m         3[m  711.894/s[m    721.718[m
+[m[0;32mGetLocalStateEnergyPA/0/2_median  [m[0;33m       151 us          151 us   [m[0;36m         3[m  712.869/s[m    722.613[m
+[m[0;32mGetLocalStateEnergyPA/0/2_stddev  [m[0;33m     0.378 us        0.379 us   [m[0;36m         3[m  1.77734/s[m    1.66281[m
+[m[0;32mGetLocalStateEnergyPA/0/2_cv      [m[0;33m      0.25 %          0.25 %    [m[0;36m         3[m      0.25%[m      0.23%[m
+[m[0;32mGetLocalStateEnergyPA/1/2         [m[0;33m      92.8 us         92.7 us   [m[0;36m      7502[m 1.16241k/s[m   1.18925k[m
+[m[0;32mGetLocalStateEnergyPA/1/2         [m[0;33m      92.6 us         92.6 us   [m[0;36m      7502[m 1.16383k/s[m   1.18981k[m
+[m[0;32mGetLocalStateEnergyPA/1/2         [m[0;33m      93.8 us         93.8 us   [m[0;36m      7502[m 1.14916k/s[m   1.17599k[m
+[m[0;32mGetLocalStateEnergyPA/1/2_mean    [m[0;33m      93.1 us         93.1 us   [m[0;36m         3[m 1.15846k/s[m   1.18502k[m
+[m[0;32mGetLocalStateEnergyPA/1/2_median  [m[0;33m      92.8 us         92.7 us   [m[0;36m         3[m 1.16241k/s[m   1.18925k[m
+[m[0;32mGetLocalStateEnergyPA/1/2_stddev  [m[0;33m     0.654 us        0.653 us   [m[0;36m         3[m   8.0924/s[m    7.82414[m
+[m[0;32mGetLocalStateEnergyPA/1/2_cv      [m[0;33m      0.70 %          0.70 %    [m[0;36m         3[m      0.70%[m      0.66%[m
+[m[0;32mGetLocalStateEnergyPA/0/3         [m[0;33m       241 us          241 us   [m[0;36m      2854[m 1.46194k/s[m   1.47439k[m
+[m[0;32mGetLocalStateEnergyPA/0/3         [m[0;33m       243 us          242 us   [m[0;36m      2854[m 1.45551k/s[m   1.46845k[m
+[m[0;32mGetLocalStateEnergyPA/0/3         [m[0;33m       242 us          242 us   [m[0;36m      2854[m 1.46037k/s[m   1.47307k[m
+[m[0;32mGetLocalStateEnergyPA/0/3_mean    [m[0;33m       242 us          242 us   [m[0;36m         3[m 1.45927k/s[m   1.47197k[m
+[m[0;32mGetLocalStateEnergyPA/0/3_median  [m[0;33m       242 us          242 us   [m[0;36m         3[m 1.46037k/s[m   1.47307k[m
+[m[0;32mGetLocalStateEnergyPA/0/3_stddev  [m[0;33m     0.547 us        0.556 us   [m[0;36m         3[m  3.35358/s[m    3.11914[m
+[m[0;32mGetLocalStateEnergyPA/0/3_cv      [m[0;33m      0.23 %          0.23 %    [m[0;36m         3[m      0.23%[m      0.21%[m
+[m[0;32mGetLocalStateEnergyPA/1/3         [m[0;33m       189 us          189 us   [m[0;36m      3646[m 1.86398k/s[m   1.88448k[m
+[m[0;32mGetLocalStateEnergyPA/1/3         [m[0;33m       191 us          191 us   [m[0;36m      3646[m 1.84959k/s[m   1.87039k[m
+[m[0;32mGetLocalStateEnergyPA/1/3         [m[0;33m       189 us          189 us   [m[0;36m      3646[m 1.86321k/s[m   1.88347k[m
+[m[0;32mGetLocalStateEnergyPA/1/3_mean    [m[0;33m       190 us          190 us   [m[0;36m         3[m 1.85893k/s[m   1.87945k[m
+[m[0;32mGetLocalStateEnergyPA/1/3_median  [m[0;33m       189 us          189 us   [m[0;36m         3[m 1.86321k/s[m   1.88347k[m
+[m[0;32mGetLocalStateEnergyPA/1/3_stddev  [m[0;33m     0.833 us        0.829 us   [m[0;36m         3[m  8.09572/s[m    7.85812[m
+[m[0;32mGetLocalStateEnergyPA/1/3_cv      [m[0;33m      0.44 %          0.44 %    [m[0;36m         3[m      0.44%[m      0.42%[m
+[m[0;32mGetLocalStateEnergyPA/0/4         [m[0;33m       419 us          419 us   [m[0;36m      1604[m 1.96745k/s[m   1.97743k[m
+[m[0;32mGetLocalStateEnergyPA/0/4         [m[0;33m       419 us          419 us   [m[0;36m      1604[m 1.96779k/s[m   1.97767k[m
+[m[0;32mGetLocalStateEnergyPA/0/4         [m[0;33m       419 us          419 us   [m[0;36m      1604[m 1.96824k/s[m   1.97816k[m
+[m[0;32mGetLocalStateEnergyPA/0/4_mean    [m[0;33m       419 us          419 us   [m[0;36m         3[m 1.96783k/s[m   1.97775k[m
+[m[0;32mGetLocalStateEnergyPA/0/4_median  [m[0;33m       419 us          419 us   [m[0;36m         3[m 1.96779k/s[m   1.97767k[m
+[m[0;32mGetLocalStateEnergyPA/0/4_stddev  [m[0;33m     0.084 us        0.084 us   [m[0;36m         3[m 0.394551/s[m   0.373964[m
+[m[0;32mGetLocalStateEnergyPA/0/4_cv      [m[0;33m      0.02 %          0.02 %    [m[0;36m         3[m      0.02%[m      0.02%[m
+[m[0;32mGetLocalStateEnergyPA/1/4         [m[0;33m       287 us          287 us   [m[0;36m      2338[m 2.86655k/s[m   2.88808k[m
+[m[0;32mGetLocalStateEnergyPA/1/4         [m[0;33m       288 us          288 us   [m[0;36m      2338[m  2.8655k/s[m   2.88703k[m
+[m[0;32mGetLocalStateEnergyPA/1/4         [m[0;33m       287 us          287 us   [m[0;36m      2338[m 2.86759k/s[m   2.88932k[m
+[m[0;32mGetLocalStateEnergyPA/1/4_mean    [m[0;33m       287 us          287 us   [m[0;36m         3[m 2.86655k/s[m   2.88814k[m
+[m[0;32mGetLocalStateEnergyPA/1/4_median  [m[0;33m       287 us          287 us   [m[0;36m         3[m 2.86655k/s[m   2.88808k[m
+[m[0;32mGetLocalStateEnergyPA/1/4_stddev  [m[0;33m     0.103 us        0.105 us   [m[0;36m         3[m  1.04783/s[m    1.14588[m
+[m[0;32mGetLocalStateEnergyPA/1/4_cv      [m[0;33m      0.04 %          0.04 %    [m[0;36m         3[m      0.04%[m      0.04%[m
+[m[0;32mAssembleGradDiagonalPA/0/1        [m[0;33m       257 us          257 us   [m[0;36m      2696[m  57.4062/s[m    57.7919[m
+[m[0;32mAssembleGradDiagonalPA/0/1        [m[0;33m       256 us          256 us   [m[0;36m      2696[m  57.5186/s[m     57.968[m
+[m[0;32mAssembleGradDiagonalPA/0/1        [m[0;33m       255 us          255 us   [m[0;36m      2696[m  57.7286/s[m    58.1197[m
+[m[0;32mAssembleGradDiagonalPA/0/1_mean   [m[0;33m       256 us          256 us   [m[0;36m         3[m  57.5512/s[m    57.9599[m
+[m[0;32mAssembleGradDiagonalPA/0/1_median [m[0;33m       256 us          256 us   [m[0;36m         3[m  57.5186/s[m     57.968[m
+[m[0;32mAssembleGradDiagonalPA/0/1_stddev [m[0;33m     0.726 us        0.728 us   [m[0;36m         3[m 0.163658/s[m   0.164072[m
+[m[0;32mAssembleGradDiagonalPA/0/1_cv     [m[0;33m      0.28 %          0.28 %    [m[0;36m         3[m      0.28%[m      0.28%[m
+[m[0;32mAssembleGradDiagonalPA/1/1        [m[0;33m      65.8 us         65.8 us   [m[0;36m     10629[m  224.008/s[m    230.197[m
+[m[0;32mAssembleGradDiagonalPA/1/1        [m[0;33m      65.6 us         65.6 us   [m[0;36m     10629[m  224.746/s[m     230.85[m
+[m[0;32mAssembleGradDiagonalPA/1/1        [m[0;33m      65.6 us         65.6 us   [m[0;36m     10629[m  224.839/s[m    230.905[m
+[m[0;32mAssembleGradDiagonalPA/1/1_mean   [m[0;33m      65.6 us         65.6 us   [m[0;36m         3[m  224.531/s[m    230.651[m
+[m[0;32mAssembleGradDiagonalPA/1/1_median [m[0;33m      65.6 us         65.6 us   [m[0;36m         3[m  224.746/s[m     230.85[m
+[m[0;32mAssembleGradDiagonalPA/1/1_stddev [m[0;33m     0.133 us        0.133 us   [m[0;36m         3[m 0.455656/s[m   0.394045[m
+[m[0;32mAssembleGradDiagonalPA/1/1_cv     [m[0;33m      0.20 %          0.20 %    [m[0;36m         3[m      0.20%[m      0.17%[m
+[m[0;32mAssembleGradDiagonalPA/0/2        [m[0;33m       697 us          697 us   [m[0;36m       830[m  154.688/s[m    155.084[m
+[m[0;32mAssembleGradDiagonalPA/0/2        [m[0;33m       697 us          697 us   [m[0;36m       830[m  154.613/s[m    155.016[m
+[m[0;32mAssembleGradDiagonalPA/0/2        [m[0;33m       697 us          697 us   [m[0;36m       830[m  154.698/s[m    155.077[m
+[m[0;32mAssembleGradDiagonalPA/0/2_mean   [m[0;33m       697 us          697 us   [m[0;36m         3[m  154.666/s[m    155.059[m
+[m[0;32mAssembleGradDiagonalPA/0/2_median [m[0;33m       697 us          697 us   [m[0;36m         3[m  154.688/s[m    155.077[m
+[m[0;32mAssembleGradDiagonalPA/0/2_stddev [m[0;33m     0.202 us        0.209 us   [m[0;36m         3[m 0.0464225/s[m  0.0376712[m
+[m[0;32mAssembleGradDiagonalPA/0/2_cv     [m[0;33m      0.03 %          0.03 %    [m[0;36m         3[m      0.03%[m      0.02%[m
+[m[0;32mAssembleGradDiagonalPA/1/2        [m[0;33m       293 us          293 us   [m[0;36m      2387[m   367.48/s[m    369.678[m
+[m[0;32mAssembleGradDiagonalPA/1/2        [m[0;33m       293 us          293 us   [m[0;36m      2387[m  367.351/s[m    369.567[m
+[m[0;32mAssembleGradDiagonalPA/1/2        [m[0;33m       293 us          293 us   [m[0;36m      2387[m  367.392/s[m    369.591[m
+[m[0;32mAssembleGradDiagonalPA/1/2_mean   [m[0;33m       293 us          293 us   [m[0;36m         3[m  367.408/s[m    369.612[m
+[m[0;32mAssembleGradDiagonalPA/1/2_median [m[0;33m       293 us          293 us   [m[0;36m         3[m  367.392/s[m    369.591[m
+[m[0;32mAssembleGradDiagonalPA/1/2_stddev [m[0;33m     0.055 us        0.052 us   [m[0;36m         3[m 0.0656052/s[m  0.0586269[m
+[m[0;32mAssembleGradDiagonalPA/1/2_cv     [m[0;33m      0.02 %          0.02 %    [m[0;36m         3[m      0.02%[m      0.02%[m
+[m[0;32mAssembleGradDiagonalPA/0/3        [m[0;33m       901 us          901 us   [m[0;36m       773[m  391.782/s[m    392.544[m
+[m[0;32mAssembleGradDiagonalPA/0/3        [m[0;33m       902 us          902 us   [m[0;36m       773[m  391.362/s[m    392.107[m
+[m[0;32mAssembleGradDiagonalPA/0/3        [m[0;33m       902 us          902 us   [m[0;36m       773[m  391.478/s[m    392.194[m
+[m[0;32mAssembleGradDiagonalPA/0/3_mean   [m[0;33m       902 us          901 us   [m[0;36m         3[m   391.54/s[m    392.282[m
+[m[0;32mAssembleGradDiagonalPA/0/3_median [m[0;33m       902 us          902 us   [m[0;36m         3[m  391.478/s[m    392.194[m
+[m[0;32mAssembleGradDiagonalPA/0/3_stddev [m[0;33m     0.556 us        0.499 us   [m[0;36m         3[m 0.216923/s[m   0.230852[m
+[m[0;32mAssembleGradDiagonalPA/0/3_cv     [m[0;33m      0.06 %          0.06 %    [m[0;36m         3[m      0.06%[m      0.06%[m
+[m[0;32mAssembleGradDiagonalPA/1/3        [m[0;33m       834 us          834 us   [m[0;36m       623[m  423.351/s[m    424.261[m
+[m[0;32mAssembleGradDiagonalPA/1/3        [m[0;33m       833 us          833 us   [m[0;36m       623[m  423.699/s[m    424.598[m
+[m[0;32mAssembleGradDiagonalPA/1/3        [m[0;33m       833 us          833 us   [m[0;36m       623[m  423.741/s[m    424.609[m
+[m[0;32mAssembleGradDiagonalPA/1/3_mean   [m[0;33m       833 us          833 us   [m[0;36m         3[m  423.597/s[m    424.489[m
+[m[0;32mAssembleGradDiagonalPA/1/3_median [m[0;33m       833 us          833 us   [m[0;36m         3[m  423.699/s[m    424.598[m
+[m[0;32mAssembleGradDiagonalPA/1/3_stddev [m[0;33m     0.423 us        0.422 us   [m[0;36m         3[m 0.214358/s[m   0.197885[m
+[m[0;32mAssembleGradDiagonalPA/1/3_cv     [m[0;33m      0.05 %          0.05 %    [m[0;36m         3[m      0.05%[m      0.05%[m
+[m[0;32mAssembleGradDiagonalPA/0/4        [m[0;33m      2494 us         2494 us   [m[0;36m       259[m  330.323/s[m    330.641[m
+[m[0;32mAssembleGradDiagonalPA/0/4        [m[0;33m      2496 us         2496 us   [m[0;36m       259[m  330.074/s[m    330.295[m
+[m[0;32mAssembleGradDiagonalPA/0/4        [m[0;33m      2498 us         2498 us   [m[0;36m       259[m  329.834/s[m    330.068[m
+[m[0;32mAssembleGradDiagonalPA/0/4_mean   [m[0;33m      2496 us         2496 us   [m[0;36m         3[m  330.077/s[m    330.335[m
+[m[0;32mAssembleGradDiagonalPA/0/4_median [m[0;33m      2496 us         2496 us   [m[0;36m         3[m  330.074/s[m    330.295[m
+[m[0;32mAssembleGradDiagonalPA/0/4_stddev [m[0;33m      1.90 us         1.85 us   [m[0;36m         3[m 0.244539/s[m   0.288784[m
+[m[0;32mAssembleGradDiagonalPA/0/4_cv     [m[0;33m      0.08 %          0.07 %    [m[0;36m         3[m      0.07%[m      0.09%[m
+[m[0;32mAssembleGradDiagonalPA/1/4        [m[0;33m      1161 us         1161 us   [m[0;36m       596[m  709.506/s[m    710.631[m
+[m[0;32mAssembleGradDiagonalPA/1/4        [m[0;33m      1170 us         1170 us   [m[0;36m       596[m  704.348/s[m     705.51[m
+[m[0;32mAssembleGradDiagonalPA/1/4        [m[0;33m      1170 us         1170 us   [m[0;36m       596[m    704.3/s[m     705.44[m
+[m[0;32mAssembleGradDiagonalPA/1/4_mean   [m[0;33m      1167 us         1167 us   [m[0;36m         3[m  706.052/s[m    707.194[m
+[m[0;32mAssembleGradDiagonalPA/1/4_median [m[0;33m      1170 us         1170 us   [m[0;36m         3[m  704.348/s[m     705.51[m
+[m[0;32mAssembleGradDiagonalPA/1/4_stddev [m[0;33m      4.99 us         4.93 us   [m[0;36m         3[m  2.99217/s[m    2.97717[m
+[m[0;32mAssembleGradDiagonalPA/1/4_cv     [m[0;33m      0.43 %          0.42 %    [m[0;36m         3[m      0.42%[m      0.42%[m
+[m

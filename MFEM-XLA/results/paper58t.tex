@@ -1,0 +1,14 @@
+\begin{tabular}{l r r r r}
+\toprule
+Suite & cases & native CUDA (ms) & xla2p58c (ms) & xla2p58c/native (geo.\ mean) \\
+\midrule
+assembly_levels & 28 & 227.0 & 129.8 & 0.74 \\
+ceed & 12 & 435.7 & 394.4 & 0.94 \\
+dg_amr & 4 & 2.1 & 1.9 & 0.91 \\
+elasticity & 4 & 4.6 & 4.3 & 1.01 \\
+nlvc & 12 & 27.5 & 13.9 & 0.81 \\
+tmop & 32 & 19.4 & 15.8 & 0.57 \\
+vector & 12 & 0.0 & 0.0 & 1.01 \\
+virtuals & 3 & 0.0 & 0.0 & 0.96 \\
+\bottomrule
+\end{tabular}
