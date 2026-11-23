@@ -4647,7 +4647,7 @@ void ApplyMaterialPropertiesAndUpdateVolume(Domain *domain)
     cudaMemcpy(out, domain->d_e.raw(), N*sizeof(Real_t), cudaMemcpyDeviceToHost);
     for (int i=0; i<N; i++) {
       if (abs(out[i]) > 1e-6)
-        printf("out=%f\n", i, out[i]);
+        printf("out[%d]=%f\n", i, out[i]);
     }
     delete[] out;
     #endif
